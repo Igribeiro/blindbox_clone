@@ -1,4 +1,38 @@
-.menu {
+body {
+    margin: 0;
+}
+
+header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    text-decoration: none;
+    height: 64px;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 0 5px gray;
+    line-height: 1px;
+}
+
+#title{
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+    color:#48487f;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 64px;
+}
+
+.menu {
+    margin-right: 64px;
+    color: #48487f;
+    font-size: 17px;
+    
+
+}
+
+a {
+    text-decoration: none;
+    margin: 0 15px;
 }

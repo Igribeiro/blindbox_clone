@@ -25,14 +25,15 @@ header {
 }
 
 .menu {
+    display: inline-flex;
+    align-items: center;
     margin-right: 64px;
     color: #48487f;
     font-size: 17px;
-    
-
 }
 
 a {
     text-decoration: none;
     margin: 0 15px;
+    margin-left: 10px;
 }
